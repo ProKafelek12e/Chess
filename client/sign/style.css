@@ -1,0 +1,42 @@
+#login{
+    background-color: #DDA15E;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #283618;
+}
+#name{
+
+}
+#password{
+
+}
+#login input{
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#login button{
+    width: 90px;
+    height: 30px;
+}
+/* Color palette: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25  */
