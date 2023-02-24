@@ -1,4 +1,5 @@
-function sign(){
+ async function sign(){
+    const username = document.getElementById("name").value
     const password = document.getElementById("password").value
     console.log(password)
     var big = 0
@@ -32,6 +33,7 @@ function sign(){
     }
     if(un==0 && big==1 && small==1 && special==1 && number ==1 && password.length>=8){
         console.log("good passwordc")
+        await fetch(`${baseurl}/addaccount/${username}/${password}`)
     }
 }
 function rep(){
