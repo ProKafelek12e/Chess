@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    height: 90vh;
+    background-color: #283618;
+    
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: "left center right";
+    padding-top: 10vh;
+}
+#main{
+    grid-area: center;
+    background-color: #DDA15E;
+}
+#main-left{
+    grid-area: left;
+}
+#main-right{
+    display: flex;
+    grid-area: right;
+    justify-content: center;
+}
+#account{
+    height: 70px;
+    width: 190px;
+    border-radius: 15px;
+    background-color: #DDA15E;
+    padding-left: 10px;
+}
+#account p{
+    font-size: 10px;
+    margin: 2px;
+}
+#account h1{
+    font-size: 20px;
+    margin: 9px;
+}

@@ -39,4 +39,8 @@ body{
     width: 90px;
     height: 30px;
 }
+#login a{
+    text-decoration: none;
+    color: black;
+}
 /* Color palette: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25  */
